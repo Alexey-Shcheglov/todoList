@@ -11,9 +11,9 @@ const setToStorage = function () {
 
 const getFromStorage = function () {
   let res = JSON.parse(localStorage.getItem("toDoData"));
-  if (res === null) {
-    res = [];
-  }
+//   if (res === null) {
+//    //  res = [];
+//   }
   return res;
 };
 const toDoData = getFromStorage();
