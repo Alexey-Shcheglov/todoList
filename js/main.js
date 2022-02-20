@@ -18,8 +18,6 @@ const getFromStorage = function () {
 };
 const toDoData = getFromStorage();
 
-// toDoData = getFromStorage();
-
 const render = function () {
   todoList.innerHTML = "";
   todoCompleted.innerHTML = "";
